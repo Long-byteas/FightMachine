@@ -2546,3 +2546,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.26-09.50.35:791][934]LogSlate: Window 'BulletEnemy' being destroyed
 [2021.07.26-09.50.35:795][934]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
 [2021.07.26-09.50.35:795][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.52.42:191][317]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/StarShip.StarShip
+[2021.07.26-09.54.11:038][821]BlueprintLog: New page: Compile StarShip
+[2021.07.26-09.54.11:107][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2021.07.26-09.54.11:207][821]LogSavePackage: Moving '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Saved/StarShip84D6EFBF474F4EECA29A8F8C22148A42.tmp' to '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/SideScrollerBP/Blueprints/StarShip.uasset'
+[2021.07.26-09.54.11:286][821]AssetCheck: New page: Asset Save: StarShip
+[2021.07.26-09.54.11:286][821]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Blueprints/StarShip.StarShip
+[2021.07.26-09.54.11:870][839]LogSavePackage: Moving '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Saved/StarShip636020904438D26BC9D634AEDE7C55A2.tmp' to '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/SideScrollerBP/Blueprints/StarShip.uasset'
+[2021.07.26-09.54.11:901][839]AssetCheck: New page: Asset Save: StarShip
+[2021.07.26-09.54.11:901][839]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Blueprints/StarShip.StarShip
