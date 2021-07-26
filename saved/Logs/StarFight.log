@@ -1743,3 +1743,806 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.26-09.36.43:508][345]LogSavePackage: Moving '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Saved/FInalScreen41F6BCFE4C42547EE94AE4A12FCC839A.tmp' to '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/FInalScreen.uasset'
 [2021.07.26-09.36.43:526][345]AssetCheck: New page: Asset Save: FInalScreen
 [2021.07.26-09.36.43:526][345]LogContentValidation: Display: Validating WidgetBlueprint /Game/FInalScreen.FInalScreen
+[2021.07.26-09.41.57:359][681]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.07.26-09.41.57:381][681]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SideScrollerBP/Maps/Main.Main
+[2021.07.26-09.41.57:381][681]Cmd: MAP LOAD FILE="../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/SideScrollerBP/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.26-09.41.57:381][681]LightingResults: New page: Lighting Build
+[2021.07.26-09.41.57:383][681]LoadErrors: New page: Loading map: Main.umap
+[2021.07.26-09.41.57:384][681]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.41.57:384][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.41.57:384][681]MapCheck: New page: Map Check
+[2021.07.26-09.41.57:384][681]LightingResults: New page: Lighting Build
+[2021.07.26-09.41.57:409][681]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.41.57:416][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.07.26-09.41.57:424][681]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main'.
+[2021.07.26-09.41.57:427][681]LogAIModule: Creating AISystem for world Main
+[2021.07.26-09.41.57:501][681]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.26-09.41.57:526][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.07.26-09.41.57:533][681]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.26-09.41.57:533][681]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.135ms to complete.
+[2021.07.26-09.41.57:533][681]LogFileHelpers: Loading map 'Main' took 0.153
+[2021.07.26-09.41.58:494][736]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.26-09.41.58:534][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.26-09.41.58:534][736]PIE: New page: PIE session: Main (Jul 27, 2021, 9:41:58 AM)
+[2021.07.26-09.41.58:534][736]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.41.58:535][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001196s)
+[2021.07.26-09.41.58:536][736]LogAIModule: Creating AISystem for world Main
+[2021.07.26-09.41.58:537][736]LogPlayLevel: PIE: World Init took: (0.001582s)
+[2021.07.26-09.41.58:537][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.002922s)
+[2021.07.26-09.41.58:565][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.07.26-09.41.58:566][736]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.07.26-09.41.58:566][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.26-09.41.58:566][736]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.26-09.41.58:567][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.26-09.41.58:567][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.26-09.41.58:567][736]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.26-09.41.58:567][736]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.26-09.41.58:567][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.26-09.41.58:567][736]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.26-09.41.58:567][736]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.26-09.41.58:567][736]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.26-09.41.58:570][736]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.26-09.41.58:570][736]LogAudioMixer: Display: 1: FrontRight
+[2021.07.26-09.41.58:664][736]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.07.26-09.41.58:664][736]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.26-09.41.58:664][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.26-09.41.58:664][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.26-09.41.58:665][736]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.26-09.41.58:665][736]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.26-09.41.58:665][736]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.26-09.41.58:689][736]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.26-09.41.58:689][736]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.26-09.41.58:689][736]LogInit: FAudioDevice initialized.
+[2021.07.26-09.41.58:689][736]LogAudio: Display: Audio Device (ID: 12) registered with world 'Main'.
+[2021.07.26-09.41.58:701][736]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.41.58:702][736]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2021.07.26-21.41.58
+[2021.07.26-09.41.58:703][736]LogWorld: Bringing up level for play took: 0.000322
+[2021.07.26-09.41.58:703][736]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.07.26-09.41.58:706][736]PIE: Server logged in
+[2021.07.26-09.41.58:707][736]PIE: Play in editor total start time 0.175 seconds.
+[2021.07.26-09.42.02:463][957]LogNet: Browse: /Game/SideScrollerBP/Maps/Main
+[2021.07.26-09.42.02:463][957]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Main
+[2021.07.26-09.42.02:463][957]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.42.02:463][957]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.42.02:463][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.42.02:512][957]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.42.02:515][957]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.07.26-09.42.02:517][957]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.42.02:518][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001132s)
+[2021.07.26-09.42.02:519][957]LogAIModule: Creating AISystem for world Main
+[2021.07.26-09.42.02:520][957]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2021.07.26-09.42.02:520][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.002430s)
+[2021.07.26-09.42.02:520][957]LogAudio: Display: Audio Device (ID: 12) registered with world 'Main'.
+[2021.07.26-09.42.02:520][957]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.42.02:521][957]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2021.07.26-21.42.02
+[2021.07.26-09.42.02:521][957]LogWorld: Bringing up level for play took: 0.000313
+[2021.07.26-09.42.02:522][957]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.26-09.42.02:523][957]LogLoad: Took 0.060118 seconds to LoadMap(/Game/SideScrollerBP/Maps/UEDPIE_0_Main)
+[2021.07.26-09.42.03:062][989]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.42.03:062][989]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.42.03:063][989]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.42.03:063][989]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.42.03:063][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.42.03:109][989]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.42.03:112][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.07.26-09.42.03:127][989]LogAudio: Display: Audio Device (ID: 12) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.42.03:128][989]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.42.03:128][989]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.42.03:193][989]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.42.03
+[2021.07.26-09.42.03:194][989]LogWorld: Bringing up level for play took: 0.064442
+[2021.07.26-09.42.03:197][989]LogLoad: Took 0.134388 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.42.26:126][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.42.26:126][358]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.42.26:127][358]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.42.26:127][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.42.26:135][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.26-09.42.26:139][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.42.26:161][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.42.26:161][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.42.26:163][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.42.26:193][358]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.07.26-09.42.26:210][359]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.07.26-09.42.38:424][573]LogSlate: Window 'FInalScreen' being destroyed
+[2021.07.26-09.42.38:430][573]LogSlate: Window 'FInalScreen' being destroyed
+[2021.07.26-09.42.38:439][573]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.42.38:439][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.42.38:487][573]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.42.38:487][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.42.46:666][ 39]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Bullet.Bullet
+[2021.07.26-09.43.26:175][128]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/BulletEnemy.BulletEnemy
+[2021.07.26-09.44.56:573][100]BlueprintLog: New page: Compile BulletEnemy
+[2021.07.26-09.44.56:634][100]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.07.26-09.44.56:738][100]LogSavePackage: Moving '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Saved/BulletEnemy47B3CF8845A7AA5811570489799A07F9.tmp' to '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/SideScrollerBP/Blueprints/BulletEnemy.uasset'
+[2021.07.26-09.44.56:779][100]AssetCheck: New page: Asset Save: BulletEnemy
+[2021.07.26-09.44.56:780][100]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Blueprints/BulletEnemy.BulletEnemy
+[2021.07.26-09.44.57:449][135]LogSavePackage: Moving '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Saved/BulletEnemyA3A966CD441B0094726188AA4324E4C0.tmp' to '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/SideScrollerBP/Blueprints/BulletEnemy.uasset'
+[2021.07.26-09.44.57:473][135]AssetCheck: New page: Asset Save: BulletEnemy
+[2021.07.26-09.44.57:473][135]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Blueprints/BulletEnemy.BulletEnemy
+[2021.07.26-09.45.23:744][689]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.26-09.45.23:781][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.26-09.45.23:781][689]PIE: New page: PIE session: Main (Jul 27, 2021, 9:45:23 AM)
+[2021.07.26-09.45.23:781][689]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.45.23:783][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001391s)
+[2021.07.26-09.45.23:784][689]LogAIModule: Creating AISystem for world Main
+[2021.07.26-09.45.23:784][689]LogPlayLevel: PIE: World Init took: (0.001478s)
+[2021.07.26-09.45.23:784][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.003016s)
+[2021.07.26-09.45.23:818][689]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.07.26-09.45.23:819][689]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.07.26-09.45.23:819][689]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.26-09.45.23:819][689]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.26-09.45.23:819][689]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.26-09.45.23:819][689]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.26-09.45.23:819][689]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.26-09.45.23:819][689]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.26-09.45.23:819][689]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.26-09.45.23:819][689]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.26-09.45.23:820][689]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.26-09.45.23:820][689]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.26-09.45.23:822][689]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.26-09.45.23:822][689]LogAudioMixer: Display: 1: FrontRight
+[2021.07.26-09.45.23:922][689]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.07.26-09.45.23:922][689]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.26-09.45.23:922][689]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.26-09.45.23:922][689]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.26-09.45.23:923][689]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.26-09.45.23:923][689]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.26-09.45.23:923][689]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.26-09.45.23:949][689]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.26-09.45.23:949][689]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.26-09.45.23:949][689]LogInit: FAudioDevice initialized.
+[2021.07.26-09.45.23:949][689]LogAudio: Display: Audio Device (ID: 13) registered with world 'Main'.
+[2021.07.26-09.45.23:957][689]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.45.23:958][689]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2021.07.26-21.45.23
+[2021.07.26-09.45.23:959][689]LogWorld: Bringing up level for play took: 0.000377
+[2021.07.26-09.45.23:959][689]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.07.26-09.45.23:962][689]PIE: Server logged in
+[2021.07.26-09.45.23:963][689]PIE: Play in editor total start time 0.183 seconds.
+[2021.07.26-09.45.24:744][736]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.24:744][736]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.24:744][736]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.45.24:744][736]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.45.24:745][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.45.24:772][736]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.45.24:775][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.07.26-09.45.24:788][736]LogAudio: Display: Audio Device (ID: 13) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.45.24:789][736]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.45.24:789][736]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.45.24:818][736]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.45.24
+[2021.07.26-09.45.24:818][736]LogWorld: Bringing up level for play took: 0.028047
+[2021.07.26-09.45.24:819][736]LogLoad: Took 0.075254 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.45.24:834][736]LogScript: Warning: Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.24:852][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:888][736]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.24:888][736]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:888][736]LogScript: Warning: Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.24:889][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:889][736]LogScript: Warning: Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.24:889][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:890][736]LogScript: Warning: Accessed None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03DC
+[2021.07.26-09.45.24:890][736]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:890][736]LogScript: Warning: Attempted to assign to None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03F1
+[2021.07.26-09.45.24:890][736]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:892][736]LogScript: Warning: Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.24:892][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:892][736]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.24:892][736]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:892][736]LogScript: Warning: Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.24:893][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:893][736]LogScript: Warning: Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.24:893][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:893][736]LogScript: Warning: Accessed None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03DC
+[2021.07.26-09.45.24:893][736]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:893][736]LogScript: Warning: Attempted to assign to None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03F1
+[2021.07.26-09.45.24:893][736]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:895][736]LogScript: Warning: Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.24:895][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:895][736]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.24:895][736]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:895][736]LogScript: Warning: Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.24:895][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:895][736]LogScript: Warning: Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.24:895][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:896][736]LogScript: Warning: Accessed None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03DC
+[2021.07.26-09.45.24:896][736]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:896][736]LogScript: Warning: Attempted to assign to None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03F1
+[2021.07.26-09.45.24:896][736]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:898][736]LogScript: Warning: Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.24:899][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:899][736]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.24:899][736]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:899][736]LogScript: Warning: Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.24:899][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.24:899][736]LogScript: Warning: Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.24:900][736]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:900][736]LogScript: Warning: Accessed None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03DC
+[2021.07.26-09.45.24:900][736]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.24:900][736]LogScript: Warning: Attempted to assign to None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03F1
+[2021.07.26-09.45.24:900][736]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:190][811]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.26:190][811]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.26:190][811]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.45.26:190][811]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.45.26:191][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.45.26:219][811]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.45.26:223][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.07.26-09.45.26:233][811]LogAudio: Display: Audio Device (ID: 13) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.45.26:234][811]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.45.26:235][811]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.45.26:242][811]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.45.26
+[2021.07.26-09.45.26:242][811]LogWorld: Bringing up level for play took: 0.006162
+[2021.07.26-09.45.26:243][811]LogLoad: Took 0.052924 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.45.26:245][811]LogScript: Warning: Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.26:245][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:245][811]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.26:245][811]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:245][811]LogScript: Warning: Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.26:245][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:245][811]LogScript: Warning: Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.26:245][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:245][811]LogScript: Warning: Accessed None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03DC
+[2021.07.26-09.45.26:245][811]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:245][811]LogScript: Warning: Attempted to assign to None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03F1
+[2021.07.26-09.45.26:245][811]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:246][811]LogScript: Warning: Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.26:246][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:246][811]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.26:246][811]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:246][811]LogScript: Warning: Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.26:246][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:246][811]LogScript: Warning: Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.26:246][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:246][811]LogScript: Warning: Accessed None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03DC
+[2021.07.26-09.45.26:246][811]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:246][811]LogScript: Warning: Attempted to assign to None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03F1
+[2021.07.26-09.45.26:246][811]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:247][811]LogScript: Warning: Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.26:247][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:247][811]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.26:247][811]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:247][811]LogScript: Warning: Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.26:247][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:247][811]LogScript: Warning: Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.26:247][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:247][811]LogScript: Warning: Accessed None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03DC
+[2021.07.26-09.45.26:247][811]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:247][811]LogScript: Warning: Attempted to assign to None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03F1
+[2021.07.26-09.45.26:247][811]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:248][811]LogScript: Warning: Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.26:248][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:248][811]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.26:248][811]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:248][811]LogScript: Warning: Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.26:248][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.26:248][811]LogScript: Warning: Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.26:248][811]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:248][811]LogScript: Warning: Accessed None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03DC
+[2021.07.26-09.45.26:248][811]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.26:248][811]LogScript: Warning: Attempted to assign to None
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03F1
+[2021.07.26-09.45.26:248][811]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:249][870]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.27:249][870]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.27:249][870]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.45.27:249][870]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.45.27:249][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.45.27:275][870]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.45.27:279][870]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.07.26-09.45.27:289][870]LogAudio: Display: Audio Device (ID: 13) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.45.27:290][870]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.45.27:290][870]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.45.27:298][870]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.45.27
+[2021.07.26-09.45.27:298][870]LogWorld: Bringing up level for play took: 0.006532
+[2021.07.26-09.45.27:299][870]LogLoad: Took 0.051197 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.45.27:300][870]LogScript: Warning: Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.27:300][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:300][870]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.27:300][870]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:300][870]LogScript: Warning: Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.27:301][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:301][870]LogScript: Warning: Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Character_1
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.27:301][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:301][870]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:301][870]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:301][870]LogScript: Warning: Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.27:301][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:302][870]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.27:302][870]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:302][870]LogScript: Warning: Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.27:302][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:302][870]LogScript: Warning: Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.danger_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.27:302][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:302][870]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:302][870]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:302][870]LogScript: Warning: Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.27:302][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:302][870]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.27:302][870]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:303][870]LogScript: Warning: Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.27:303][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:303][870]LogScript: Warning: Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy2_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.27:303][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:303][870]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:303][870]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:303][870]LogScript: Warning: Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:037D
+[2021.07.26-09.45.27:303][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:303][870]LogScript: Warning: Accessed None attempting to assign variable on an object
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:0392
+[2021.07.26-09.45.27:303][870]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:303][870]LogScript: Warning: Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:039C
+[2021.07.26-09.45.27:303][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.27:303][870]LogScript: Warning: Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill
+	Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Enemy_2
+	Function /Game/SideScrollerBP/Blueprints/Enemy.Enemy_C:ExecuteUbergraph_Enemy:03C7
+[2021.07.26-09.45.27:304][870]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:304][870]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.27:304][870]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:756][956]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.28:756][956]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.28:756][956]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.45.28:758][956]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.45.28:758][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.45.28:783][956]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.45.28:787][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.07.26-09.45.28:797][956]LogAudio: Display: Audio Device (ID: 13) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.45.28:798][956]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.45.28:798][956]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.45.28:805][956]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.45.28
+[2021.07.26-09.45.28:806][956]LogWorld: Bringing up level for play took: 0.006497
+[2021.07.26-09.45.28:807][956]LogLoad: Took 0.050207 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.45.28:808][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:808][956]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:808][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:808][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:808][956]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:808][956]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:809][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:809][956]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:809][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:809][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:809][956]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:809][956]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:809][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:810][956]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:810][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:810][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:810][956]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:810][956]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:810][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:810][956]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:810][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.28:810][956]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:811][956]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.28:811][956]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:747][ 10]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.29:747][ 10]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.29:747][ 10]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.45.29:747][ 10]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.45.29:747][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.45.29:801][ 10]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.45.29:804][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.07.26-09.45.29:814][ 10]LogAudio: Display: Audio Device (ID: 13) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.45.29:815][ 10]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.45.29:815][ 10]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.45.29:822][ 10]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.45.29
+[2021.07.26-09.45.29:822][ 10]LogWorld: Bringing up level for play took: 0.005463
+[2021.07.26-09.45.29:822][ 10]LogLoad: Took 0.076255 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.45.29:823][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:823][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:823][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:824][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_0 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:824][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:824][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:824][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:824][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:824][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:824][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_1 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_1 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:825][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:825][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:825][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:826][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:826][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:826][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_2 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_2 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:826][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:826][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:826][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:826][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:826][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set ProjectileMovement
+[2021.07.26-09.45.29:826][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BulletEnemy_C_3 via property CallFunc_FinishSpawningActor_ReturnValue, but BulletEnemy_C_3 is pending kill". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:827][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.29:827][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Enemy Function:  Execute Ubergraph Enemy Graph:  EventGraph Node:  Set Velocity
+[2021.07.26-09.45.37:777][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.45.37:777][436]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.45.37:777][436]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.45.37:777][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.45.37:792][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.26-09.45.37:796][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.45.37:826][436]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.45.37:827][436]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.45.37:828][436]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.45.37:861][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.45.37:865][436]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.07.26-09.45.38:059][437]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.07.26-09.45.40:498][533]LogSlate: Window 'Message Log' being destroyed
+[2021.07.26-09.45.40:507][533]LogSlate: Window 'Message Log' being destroyed
+[2021.07.26-09.45.43:221][651]LogEditorTransaction: Undo Create Pin Link
+[2021.07.26-09.45.43:555][658]LogEditorTransaction: Undo Break Pin Links
+[2021.07.26-09.45.43:963][673]LogEditorTransaction: Undo Create Pin Link
+[2021.07.26-09.45.44:223][687]LogEditorTransaction: Undo Create Pin Link
+[2021.07.26-09.45.44:430][698]LogEditorTransaction: Undo Create Pin Link
+[2021.07.26-09.45.44:587][706]LogEditorTransaction: Undo Move Node
+[2021.07.26-09.45.44:724][712]LogEditorTransaction: Undo Create Pin Link
+[2021.07.26-09.45.44:872][719]LogEditorTransaction: Undo Paste clipboard contents
+[2021.07.26-09.45.45:046][727]LogEditorTransaction: Undo Delete current selection
+[2021.07.26-09.45.45:337][742]LogEditorTransaction: Undo Move Node
+[2021.07.26-09.45.45:693][761]LogEditorTransaction: Undo Delete current selection
+[2021.07.26-09.45.45:924][773]LogEditorTransaction: Undo Paste clipboard contents
+[2021.07.26-09.45.49:076][944]BlueprintLog: New page: Compile BulletEnemy
+[2021.07.26-09.45.49:192][944]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.07.26-09.45.49:281][944]LogSavePackage: Moving '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Saved/BulletEnemy9B64A9494DF694B3A6B96B90026207A3.tmp' to '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/SideScrollerBP/Blueprints/BulletEnemy.uasset'
+[2021.07.26-09.45.49:299][944]AssetCheck: New page: Asset Save: BulletEnemy
+[2021.07.26-09.45.49:299][944]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Blueprints/BulletEnemy.BulletEnemy
+[2021.07.26-09.45.50:836][ 31]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.26-09.45.50:844][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.26-09.45.50:844][ 31]PIE: New page: PIE session: Main (Jul 27, 2021, 9:45:50 AM)
+[2021.07.26-09.45.50:844][ 31]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.45.50:846][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001409s)
+[2021.07.26-09.45.50:847][ 31]LogAIModule: Creating AISystem for world Main
+[2021.07.26-09.45.50:847][ 31]LogPlayLevel: PIE: World Init took: (0.001365s)
+[2021.07.26-09.45.50:847][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.002919s)
+[2021.07.26-09.45.50:879][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.07.26-09.45.50:879][ 31]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.07.26-09.45.50:879][ 31]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.26-09.45.50:879][ 31]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.26-09.45.50:879][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.26-09.45.50:879][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.26-09.45.50:879][ 31]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.26-09.45.50:879][ 31]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.26-09.45.50:879][ 31]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.26-09.45.50:880][ 31]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.26-09.45.50:880][ 31]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.26-09.45.50:880][ 31]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.26-09.45.50:882][ 31]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.26-09.45.50:882][ 31]LogAudioMixer: Display: 1: FrontRight
+[2021.07.26-09.45.51:019][ 31]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.07.26-09.45.51:020][ 31]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.26-09.45.51:020][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.26-09.45.51:020][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.26-09.45.51:021][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.26-09.45.51:021][ 31]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.26-09.45.51:021][ 31]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.26-09.45.51:060][ 31]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.26-09.45.51:061][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.26-09.45.51:061][ 31]LogInit: FAudioDevice initialized.
+[2021.07.26-09.45.51:061][ 31]LogAudio: Display: Audio Device (ID: 14) registered with world 'Main'.
+[2021.07.26-09.45.51:071][ 31]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.45.51:072][ 31]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2021.07.26-21.45.51
+[2021.07.26-09.45.51:072][ 31]LogWorld: Bringing up level for play took: 0.000444
+[2021.07.26-09.45.51:073][ 31]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.07.26-09.45.51:077][ 31]PIE: Server logged in
+[2021.07.26-09.45.51:078][ 31]PIE: Play in editor total start time 0.235 seconds.
+[2021.07.26-09.45.51:723][ 70]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.51:723][ 70]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.45.51:723][ 70]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.45.51:724][ 70]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.45.51:724][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.45.51:771][ 70]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.45.51:775][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.07.26-09.45.51:788][ 70]LogAudio: Display: Audio Device (ID: 14) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.45.51:789][ 70]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.45.51:789][ 70]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.45.51:798][ 70]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.45.51
+[2021.07.26-09.45.51:799][ 70]LogWorld: Bringing up level for play took: 0.007744
+[2021.07.26-09.45.51:800][ 70]LogLoad: Took 0.076657 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.46.01:367][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.46.01:367][640]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.46.01:367][640]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.46.01:368][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.46.01:382][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.26-09.46.01:387][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.46.01:414][640]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.46.01:414][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.46.01:416][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.46.01:441][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.46.01:445][640]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.07.26-09.46.01:462][641]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.07.26-09.47.55:576][989]BlueprintLog: New page: Compile BulletEnemy
+[2021.07.26-09.47.55:635][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.07.26-09.47.55:731][989]LogSavePackage: Moving '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Saved/BulletEnemyD2E80AC84FFD6B58175B018174BD9490.tmp' to '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/SideScrollerBP/Blueprints/BulletEnemy.uasset'
+[2021.07.26-09.47.55:779][989]AssetCheck: New page: Asset Save: BulletEnemy
+[2021.07.26-09.47.55:779][989]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Blueprints/BulletEnemy.BulletEnemy
+[2021.07.26-09.47.56:391][ 15]LogSavePackage: Moving '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Saved/BulletEnemy6E4E008746FCA3DC602B29B1E995C2B6.tmp' to '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/SideScrollerBP/Blueprints/BulletEnemy.uasset'
+[2021.07.26-09.47.56:445][ 15]AssetCheck: New page: Asset Save: BulletEnemy
+[2021.07.26-09.47.56:445][ 15]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Blueprints/BulletEnemy.BulletEnemy
+[2021.07.26-09.48.02:579][328]LogSavePackage: Moving '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Saved/BulletEnemy82924DC048B8979DC22F07BD893FB615.tmp' to '../../../../../../Users/longl/OneDrive/Documents/Unreal Projects/StarFight/Content/SideScrollerBP/Blueprints/BulletEnemy.uasset'
+[2021.07.26-09.48.02:596][328]AssetCheck: New page: Asset Save: BulletEnemy
+[2021.07.26-09.48.02:596][328]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerBP/Blueprints/BulletEnemy.BulletEnemy
+[2021.07.26-09.48.04:656][439]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.26-09.48.04:664][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.26-09.48.04:664][439]PIE: New page: PIE session: Main (Jul 27, 2021, 9:48:04 AM)
+[2021.07.26-09.48.04:664][439]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.48.04:666][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002237s)
+[2021.07.26-09.48.04:668][439]LogAIModule: Creating AISystem for world Main
+[2021.07.26-09.48.04:669][439]LogPlayLevel: PIE: World Init took: (0.001962s)
+[2021.07.26-09.48.04:669][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.004496s)
+[2021.07.26-09.48.04:697][439]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.07.26-09.48.04:698][439]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.07.26-09.48.04:698][439]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.26-09.48.04:698][439]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.26-09.48.04:698][439]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.26-09.48.04:698][439]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.26-09.48.04:698][439]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.26-09.48.04:698][439]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.26-09.48.04:699][439]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.26-09.48.04:699][439]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.26-09.48.04:699][439]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.26-09.48.04:699][439]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.26-09.48.04:701][439]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.26-09.48.04:701][439]LogAudioMixer: Display: 1: FrontRight
+[2021.07.26-09.48.04:797][439]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.07.26-09.48.04:797][439]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.26-09.48.04:797][439]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.26-09.48.04:797][439]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.26-09.48.04:798][439]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.26-09.48.04:798][439]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.26-09.48.04:798][439]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.26-09.48.04:827][439]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.26-09.48.04:827][439]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.26-09.48.04:827][439]LogInit: FAudioDevice initialized.
+[2021.07.26-09.48.04:827][439]LogAudio: Display: Audio Device (ID: 15) registered with world 'Main'.
+[2021.07.26-09.48.04:836][439]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.48.04:838][439]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2021.07.26-21.48.04
+[2021.07.26-09.48.04:838][439]LogWorld: Bringing up level for play took: 0.000366
+[2021.07.26-09.48.04:838][439]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.07.26-09.48.04:842][439]PIE: Server logged in
+[2021.07.26-09.48.04:843][439]PIE: Play in editor total start time 0.179 seconds.
+[2021.07.26-09.48.05:457][476]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.48.05:457][476]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.48.05:457][476]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.48.05:457][476]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.48.05:457][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.48.05:485][476]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.48.05:488][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.07.26-09.48.05:501][476]LogAudio: Display: Audio Device (ID: 15) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.48.05:502][476]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.48.05:502][476]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.48.05:509][476]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.48.05
+[2021.07.26-09.48.05:510][476]LogWorld: Bringing up level for play took: 0.006673
+[2021.07.26-09.48.05:511][476]LogLoad: Took 0.053523 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.48.23:428][549]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.48.23:429][549]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.48.23:429][549]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.48.23:430][549]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.48.23:430][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.48.23:484][549]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.48.23:489][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.07.26-09.48.23:500][549]LogAudio: Display: Audio Device (ID: 15) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.48.23:501][549]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.48.23:502][549]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.48.23:510][549]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.48.23
+[2021.07.26-09.48.23:510][549]LogWorld: Bringing up level for play took: 0.006819
+[2021.07.26-09.48.23:511][549]LogLoad: Took 0.082271 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.48.58:122][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.48.58:123][622]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.48.58:166][622]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.48.58:167][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.48.58:175][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.26-09.48.58:180][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.48.58:210][622]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.48.58:211][622]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.48.58:212][622]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.48.58:247][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.48.58:251][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.07.26-09.48.58:312][623]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.07.26-09.49.03:525][834]LogSlate: Window 'BulletEnemy' being destroyed
+[2021.07.26-09.49.03:530][834]LogSlate: Window 'BulletEnemy' being destroyed
+[2021.07.26-09.49.03:533][834]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.49.03:534][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.49.03:669][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.07.26-09.49.03:669][834]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.49.03:669][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.49.04:406][875]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.26-09.49.04:413][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.26-09.49.04:413][875]PIE: New page: PIE session: Main (Jul 27, 2021, 9:49:04 AM)
+[2021.07.26-09.49.04:413][875]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.49.04:414][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001152s)
+[2021.07.26-09.49.04:415][875]LogAIModule: Creating AISystem for world Main
+[2021.07.26-09.49.04:415][875]LogPlayLevel: PIE: World Init took: (0.001347s)
+[2021.07.26-09.49.04:415][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Main.Main to /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main (0.002648s)
+[2021.07.26-09.49.04:443][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.07.26-09.49.04:472][875]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.07.26-09.49.04:472][875]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.26-09.49.04:472][875]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.26-09.49.04:472][875]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.26-09.49.04:472][875]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.26-09.49.04:472][875]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.26-09.49.04:472][875]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.26-09.49.04:472][875]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.26-09.49.04:472][875]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.26-09.49.04:473][875]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.26-09.49.04:473][875]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.26-09.49.04:475][875]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.26-09.49.04:475][875]LogAudioMixer: Display: 1: FrontRight
+[2021.07.26-09.49.04:577][875]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.07.26-09.49.04:578][875]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.26-09.49.04:578][875]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.26-09.49.04:578][875]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.26-09.49.04:578][875]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.26-09.49.04:578][875]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.26-09.49.04:578][875]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.26-09.49.04:609][875]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.26-09.49.04:609][875]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.26-09.49.04:609][875]LogInit: FAudioDevice initialized.
+[2021.07.26-09.49.04:609][875]LogAudio: Display: Audio Device (ID: 16) registered with world 'Main'.
+[2021.07.26-09.49.04:620][875]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.49.04:621][875]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2021.07.26-21.49.04
+[2021.07.26-09.49.04:622][875]LogWorld: Bringing up level for play took: 0.000445
+[2021.07.26-09.49.04:622][875]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.07.26-09.49.04:625][875]PIE: Server logged in
+[2021.07.26-09.49.04:626][875]PIE: Play in editor total start time 0.214 seconds.
+[2021.07.26-09.49.05:173][908]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.49.05:173][908]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.49.05:173][908]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_Main
+[2021.07.26-09.49.05:174][908]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.49.05:174][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.49.05:195][908]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.49.05:198][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.07.26-09.49.05:209][908]LogAudio: Display: Audio Device (ID: 16) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.49.05:210][908]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.49.05:210][908]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.49.05:278][908]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.49.05
+[2021.07.26-09.49.05:278][908]LogWorld: Bringing up level for play took: 0.067170
+[2021.07.26-09.49.05:281][908]LogLoad: Took 0.107706 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.49.23:426][994]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.49.23:426][994]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2021.07.26-09.49.23:426][994]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.49.23:427][994]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.49.23:427][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.49.23:490][994]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.49.23:494][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.07.26-09.49.23:506][994]LogAudio: Display: Audio Device (ID: 16) registered with world 'SideScrollerExampleMap'.
+[2021.07.26-09.49.23:507][994]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.07.26-09.49.23:507][994]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.07.26-09.49.23:514][994]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2021.07.26-21.49.23
+[2021.07.26-09.49.23:514][994]LogWorld: Bringing up level for play took: 0.005537
+[2021.07.26-09.49.23:516][994]LogLoad: Took 0.089375 seconds to LoadMap(/Game/SideScrollerBP/Maps/SideScrollerExampleMap)
+[2021.07.26-09.49.46:414][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.49.46:415][364]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.07.26-09.49.46:446][364]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.49.46:446][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.49.46:457][364]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.26-09.49.46:461][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.26-09.49.46:484][364]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.26-09.49.46:484][364]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.49.46:485][364]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.26-09.49.46:512][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.26-09.49.46:516][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.07.26-09.49.46:545][365]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.07.26-09.49.53:182][739]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/BulletEnemy.BulletEnemy
+[2021.07.26-09.50.35:783][934]LogSlate: Window 'BulletEnemy' being destroyed
+[2021.07.26-09.50.35:791][934]LogSlate: Window 'BulletEnemy' being destroyed
+[2021.07.26-09.50.35:795][934]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2021.07.26-09.50.35:795][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
