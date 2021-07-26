@@ -1,5 +1,6 @@
 # StarFight- Comp313
-Name : Leong Dong ( dongpham )
-Assignment 1
-Title of game : Star Fight
+
+Name : Leong Dong ( dongpham ) <br />
+Assignment 1 <br />
+Title of game : Star Fight <br />
 
